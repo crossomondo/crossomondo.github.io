@@ -1,0 +1,12 @@
+<style> 
+.boxtext {
+font-size: 1.1em;
+font-family: arial, sans serif;
+padding: 10px;
+border: 5px solid red;
+margin: 10px;
+}
+</style> 
+<div class="boxtext"> 
+FOO BAR
+</div>
