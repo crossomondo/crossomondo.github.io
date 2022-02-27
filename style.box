@@ -3,8 +3,8 @@
 	font-family:  cursive;
 	text-align: center;
 	background-color:  #FCF5E5;
-	width: 50%;
-	left: 25%;
+	width: 60%;
+	left: 35%;
 	position:  relative;
 }
 
@@ -25,6 +25,6 @@
 .title {
 	text-align: center;
 	font-family: helvetica;
-	font-weight: 700;
+	font-weight: 600;
 
 }
