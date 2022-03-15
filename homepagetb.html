@@ -127,6 +127,77 @@ body {
       <h5>Places to visit & things to do, March 15, 2022</h5>
       <div></div>
       <img src= "https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_233/vue-sur-les-toits-de-la-tour-saint-jacques-%7C-740x380-%7C-©-elodie-gutbrod-créatividie/21581411-1-fre-FR/Vue-sur-les-toits-de-la-tour-Saint-Jacques-%7C-740x380-%7C-©-Elodie-Gutbrod-Créatividie.jpg" width="600px">
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  
+  <div class="column middle">
+    <h2>JORDAN</h2>
+    <p> When travelling around Jordan, the diversity of landscapes and people may surprise you. Experience the serene and humble lifestyle of the Bedouins in the desert of Wadi Rum by camping with them for a night, but don't forget to explore what the fast city life in Amman has to offer as well.</p>
+    <p>Once you enter Jordan, you'll get to see an aspect of Middle-East that you wouldn't have expected. The country is home to very friendly and hospitable people who warmly welcome tourists.</p>
+  </div>
+  
+  <div class="column side">
+    <img src= "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d4/37/caption.jpg?w=300&h=300&s=1" >
+    <p>The Treasury, Petra. </p>
+  </div>
+</div>
+  
+</body>
+</html>
       
     </div>
      </div>
